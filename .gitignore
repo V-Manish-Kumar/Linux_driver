@@ -1,22 +1,13 @@
 # Build artifacts
-build/
 *.o
-*.ko
-*.mod
-*.mod.c
-*.mod.o
-Module.symvers
-modules.order
 .tmp_versions/
-*.order
-*.symvers
 
-# Compiled executables
-configurator
-filler
-reader
-job_submitter
-worker
+# Compiled executables in root (not in build/)
+/configurator
+/filler
+/reader
+/job_submitter
+/worker
 
 # Editor files
 *.swp
